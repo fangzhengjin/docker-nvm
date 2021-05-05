@@ -1,7 +1,7 @@
 FROM bitnami/bitnami-shell:10-debian-10-r20
 LABEL maintainer "fangzhengjin <fangzhengjin@gmail.com>"
 
-ENV NVM_VERSION="v0.37.2" \
+ENV NVM_VERSION="v0.38.0" \
     NVM_NODEJS_ORG_MIRROR="https://npm.taobao.org/mirrors/node" \
     NVM_IOJS_ORG_MIRROR="https://npm.taobao.org/mirrors/iojs" \
     ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/" \
