@@ -37,6 +37,9 @@ jobs:
 
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
+          
+          env.IMAGE_ID=$IMAGE_ID
+          env.VERSION=$VERSION
           docker build . --file Dockerfile --tag ${IMAGE_ID}:${VERSION}
 
       - name: Log into registry
