@@ -1,4 +1,4 @@
-FROM bitnami/bitnami-shell:10-debian-10-r20
+FROM bitnami/bitnami-shell:10
 LABEL maintainer "fangzhengjin <fangzhengjin@gmail.com>"
 
 ENV NVM_VERSION="v0.38.0" \
